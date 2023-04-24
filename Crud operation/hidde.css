@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://wallpapers.com/images/featured/6zy4tj738voyh9fx.jpg);
+}
+.box{
+    background-color: rgb(241, 241, 189);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid black;
+    height: 50% ;
+    width: 50%;
+}
+.crud{
+    position: relative;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin:20px;
+    top: 20px;
+    
+}
+.crud button{
+    border: 4px dotted black;
+    border-radius: 10px;
+    background-color: thistle;
+    height: 120px;
+    width: 120px;
+}
+.crud a{
+    color: darkviolet;
+    font-size: 25px;
+}
+.out{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    top: 20px;
+}
+.out button{
+    height: 50px;
+    width: 100px;
+    border: 3px dotted black;
+    border-radius: 5px;
+    background-color: thistle;
+}
+.out a{
+    color: darkviolet ;
+    font-size: 15px;
+}

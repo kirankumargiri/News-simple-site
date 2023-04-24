@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    border: 4px solid rgb(105, 2, 150);
+    background: linear-gradient(to right,rgb(226, 91, 226),darkviolet);
+    padding: 15px;
+    border-radius: 10px;
+}
+th{
+    font-size: 25px;
+    color:rgb(226, 185, 108); 
+    height: 50px;
+    text-shadow: 2px 1px white;
+}
+td{
+    color: bisque;
+    height: 30px;
+}
+
+table,th,td{
+    padding: 10px;
+    border-collapse: collapse;
+    border:4px solid antiquewhite;
+
+
+}
+.edit{
+    width: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.edit a{
+    color: bisque;
+}
+a:hover{
+    font-size: larger;
+    cursor: pointer;
+    color: rgb(226, 185, 108);
+    text-shadow: 1px 1px  rgb(219, 168, 73);
+}

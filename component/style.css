@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right,rgb(148, 148, 230),blue);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+.admin button{
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    border: 2px dotted blue;
+    border-radius: 10px;
+}
+.admin button a{
+    padding: 10px;
+    color: blue;
+    font-size: 15px;
+}
+
+.title{
+    height: fit-content;
+    width: fit-content;
+}
+.title h1{
+    font-size: 30px;
+    font-family: serif;
+    color: whitesmoke;
+    text-shadow: 2px 2px rgb(152, 186, 216) ;
+
+}
+.footer{
+    position: sticky;
+    width: 98%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rgb(124, 133, 218);
+    margin: 10px;
+}
+.news{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px dotted black;
+    margin: 10px;
+    padding: 10px;
+    width: 96%;
+    height: fit-content;
+}
+.box{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    height:250px;
+    width: 30%;
+    border: 3px dotted blue;
+    margin-top: 20px;
+    margin-left: 25px ;
+    
+}
+.photo{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height:fit-content;
+}
+.photo img{
+    position: relative;
+    height:120px;
+    width: 200px;
+
+}
+.desc{
+    position: relative;
+    display: inline-flex;
+    overflow-y: scroll;
+    height: 60%;
+}
